@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 5px 5px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 2px;
+    width: auto;
+    height: auto;
+}
+h1 {
+    color: rgb(23, 23, 23);
+    font-family:'Times New Roman';
+    font-size: 88px;
+    margin-left: -75px;
+    margin-top: -85px;
+}
+.frame {
+    background-color: rgb(16, 16, 16);
+    border: 3px solid rgb(255, 255, 255);
+    width: 1470px;
+    height: 850x;
+    padding: 10px;
+    margin: auto auto;
+    border-radius: 20px 20px 20px 20px;
+}
+#contenedor {
+    display : flex;
+    flex-direction : row;
+    flex-wrap: wrap;
+    background-color: rgb(16, 16, 16);
+}
+#principal {
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
+    margin: 1px auto;
+    width: 50%;
+    height: 650px;
+    padding: 5px;
+    margin: auto 50px;
+    border-radius: 20px 20px 20px 20px;
+}
+#login{
+    margin-top: 100px;
+}
+#sidebar {
+    background-color: rgb(203, 203, 203);
+    border: 3px solid rgb(255, 255, 255);
+    width: 25%;
+    height: 450px;
+    padding: 90px;
+    margin: 20px 30px;
+    border-radius: 10px 10px 10px 10px;
+}
+h1{
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 600%;
+}
+input{
+    width: auto;
+    padding:5px 20px;
+    margin-left: 5%;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 0%;
+}
+label {
+    display: block;
+    margin: 0.5rem 0;
+    background-color: rgb(203, 203, 203);
+    margin: 10px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 140%;
+    font-style: normal;
+    text-align: right;
+}
+#olvido{
+    text-align: justify;
+    margin-left: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: auto;
+    color: rgb(43,84,160);
+    text-decoration:none;
+}
+a {
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+a:link {
+    color: rgb(43,84,160);
+    text-decoration:none;
+}
+.box {
+    width: 740px;
+    height: 600px;
+    margin: 25px auto;
+}
+.box1 {
+    width: 200px;
+    height: 200px;
+    margin-left: 25%;
+}
+.cover {
+    object-fit: cover;
+    border-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    border-style: solid;
+}
+img {
+    height: 100%;
+    width: 100%;
+}

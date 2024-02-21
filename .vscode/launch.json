@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MainEliminar",
+            "request": "launch",
+            "mainClass": "com.eliminar.conexion.MainEliminar",
+            "projectName": "ConexionBDSQL"
+        },
+        {
+            "type": "java",
+            "name": "MainActualizar",
+            "request": "launch",
+            "mainClass": "com.actualizar.conexion.MainActualizar",
+            "projectName": "ConexionBDSQL"
+        },
+        {
+            "type": "java",
+            "name": "MainIngresar",
+            "request": "launch",
+            "mainClass": "com.ingresar.conexion.MainIngresar",
+            "projectName": "ConexionBDSQL"
+        },
+        {
+            "type": "java",
+            "name": "MainPrueba",
+            "request": "launch",
+            "mainClass": "BDprueba.MainPrueba",
+            "projectName": "Proyecto_db1b5727"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.basededatos.conexion.Main",
+            "projectName": "ConexionBDSQL"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Iniciar Chrome para localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}

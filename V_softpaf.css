@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 5px 5px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 2px;
+    width: auto;
+    height: auto;
+}
+.frame{
+    background-color: rgb(0, 0, 0);
+    margin: 5px 5px 5px 5px;
+    padding: 2px;
+    width: auto;
+    height: auto;
+}
+.contenedor{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    margin: 50px 50px 50px 50px;
+    width: auto;
+    height: auto;
+}
+.principal {
+    background-color: rgb(0, 0, 0);
+    color: rgb(203, 203, 203);
+    font-size: 65px;
+    display: flex;
+    align-items: center;
+    margin: 20px 40px 40px 40px;
+    width: auto;
+    height: auto;
+}
+.Bienvenido{
+    text-align: left;
+    margin-left: 5%;
+}
+.Perfil{
+    margin-left: 10%;
+    text-align: left;
+}
+.tiempo{
+    margin-left: 10%;
+    text-align: left;
+    font-size: 70%;
+}
+.box {
+    width: 500px;
+    height: 500px;
+    margin-top: 30px;
+    margin-right: 10%;
+    margin-left: 30px;
+}
+.box1 {
+    width: 500px;
+    height: 500px;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+.cover {
+    object-fit: cover;
+    border-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    border-style: solid;
+}
+img {
+    height: 150%;
+    width: 150%;
+}
+.secundario{
+    display: flex;
+    vertical-align: auto;
+    height: 100%;
+    width: 100%;
+}
+.izquierda{
+    width: 1000px;
+    height: 1800px;
+    background-color: rgb(110, 110, 110);
+    margin: 200px 40px 40px 40px;
+    border-radius: 5%;
+    border: 2px solid rgb(0, 0, 0);
+}
+#menu{
+    font-size: 150px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}
+.opciones{
+    background-color: rgb(203, 203, 203);
+    font-size: 150px;
+    text-align: center;
+    margin: 5px 50px 5px 50px;
+    border-radius: 5%;
+    height: 1250px;
+    border: 2px solid rgb(0, 0, 0);
+}
+nav{
+    float: none;
+}
+nav ul li{
+    list-style: none;
+    float: none;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 120px;
+    font-weight: lighter;
+}
+.img2{
+    margin-top: 250px;
+    border: 2px solid rgb(0, 0, 0);
+    background-size: cover;
+    height: 1800px;
+    width: 4800px;
+    opacity: 0.4;
+}
+nav ul li a::before{
+    width: 0%;
+    background: #444;
+    height: 10px;
+    top: 0;
+    position: absolute;
+    display: block;
+    content: '';
+    transition: width 0.5s;
+}
+nav ul li a:hover::before{
+    width: 100%;
+}
+
+
